@@ -1,0 +1,242 @@
+.navbar {
+  background-color: transparent;
+  transition: background-color 0.3s ease;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+
+  /* Các thuộc tính CSS khác cho Navbar */
+}
+
+.scrolled {
+  background-color: #c29025;
+  padding: 20px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+
+  /* Màu khi cuộn */
+  /* Các thuộc tính CSS khác cho Navbar khi cuộn */
+}
+
+.slide3 {
+  width: 100%;
+  position: relative;
+  top: 0;
+  background-image: url('/public/anh/bgr1.png');
+  background-size: cover;
+}
+
+.slide1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align:center;
+  padding-top: 20%;
+}
+
+.slide2 {
+  width: 100%;
+  height: 1000px;
+  background-image: url('/public/anh/bgr2.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 25%;
+}
+
+
+
+
+.gachchu {
+  font-size: 30px;
+}
+
+.gachchu {
+  position: relative;
+  display: inline-block;
+}
+
+.gachchu::before,
+.gachchu::after {
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 50%;
+  background-color: #ffffff;
+  /* Màu của đường gạch */
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.gachchu::before {
+  right: 100%;
+  margin-right: 0.5em;
+  /* Khoảng cách giữa đường gạch và chữ */
+}
+
+.gachchu::after {
+  left: 100%;
+  margin-left: 0.5em;
+  /* Khoảng cách giữa đường gạch và chữ */
+}
+
+.headblog {
+  background-image: url(/public/anh/bgr2.png);
+  height: 300px;
+  background-size: cover;
+  background-position: 40% 40%;
+  width: 100%;
+}
+
+.navblog {
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 33;
+}
+
+.anh {
+  background-image: url(/public/anh/a1.png);
+  width: 80px;
+  height: 80px;
+}
+
+
+
+
+
+
+.text {
+  text-align: center;
+  padding-top: 100px;
+  color: #fff;
+}
+
+.inf {
+  padding-top: 45px;
+  padding-left: 200px;
+}
+
+.container {
+  display: flex;
+  padding: 30px;
+  justify-content: center;
+  padding-left: 80px;
+  padding-right: 80px;
+
+}
+
+.container p {
+  font-size: 18px;
+  padding-left: 20px;
+}
+
+.container .box-1 {
+  width: 255px;
+  height: 145px;
+  background-color: #fff;
+  margin-right: 30px;
+}
+
+.container .box-2 {
+  width: 255px;
+  height: 145x;
+  background-color: #fff;
+  margin-right: 30px;
+}
+
+.container .box-3 {
+  width: 255px;
+  height: 145x;
+  background-color: #fff;
+  margin-right: 30px;
+}
+
+.container .box-4 {
+  width: 255px;
+  height: 145x;
+  background-color: #fff;
+}
+
+
+
+
+.form {
+  background-color: #ffffff;
+  margin-right: 20px;
+}
+
+.section-enter {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.5s, transform 0.5s;
+}
+
+.section-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.scroll-to-top-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+  background-color: #dc932d;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.scroll-to-top-button.visible {
+  display: block;
+}
+
+.scroll-to-top-button:hover {
+  opacity: 0.8;
+}
+
+
+table, th, td {
+  border:1px solid black;
+}
+table{
+  width: 100%;
+}
+
+/* Trong file CSS của bạn */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Lớp phủ mờ */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+ 
+.quay{
+  animation: quay 1s infinite;
+}
+@keyframes quay {
+  0% {transform:translateX(50deg);}
+  25% {transform: translateX(50deg);}
+  50% {transform:translateX(90deg);}
+  75% {transform:translateX(180deg);}
+  100% {transform:translateX(200deg);}
+}

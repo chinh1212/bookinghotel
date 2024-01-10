@@ -1,0 +1,508 @@
+{
+  "khachhang": [
+    {
+      "firstname": "Nguyễn Văn",
+      "lastname": "Đức",
+      "sdt": "0988373916",
+      "diachi": "Tổ 12, Phường Đội Cấn",
+      "gmail": "sl2021c8.nvduc06012002@gmail.com",
+      "id": 1
+    },
+    {
+      "firstname": "Trần Thị",
+      "lastname": "Hằng",
+      "sdt": "0976123456",
+      "diachi": "Số 5, Ngõ 28, Đường Lê Thanh Nghị",
+      "gmail": "hangtran@gmail.com",
+      "id": 2
+    },
+    {
+      "firstname": "Lê Minh",
+      "lastname": "Tuấn",
+      "sdt": "0905123789",
+      "diachi": "Khối 7, Phường Hòa Cường Nam",
+      "gmail": "tuanle@gmail.com",
+      "id": 3
+    },
+    {
+      "firstname": "Phạm Thị",
+      "lastname": "Linh",
+      "sdt": "0969987654",
+      "diachi": "Số 20, Đường Trần Phú, Quận Hai Bà Trưng",
+      "gmail": "linhpham@gmail.com",
+      "id": 4
+    },
+    {
+      "firstname": "xsxsxs",
+      "lastname": "xsxsxs",
+      "sdt": "sxsxsxs",
+      "gmail": "sxsxsxs",
+      "subscribeToNewsletter": true,
+      "id": 5
+    },
+    {
+      "firstname": "sdfgh",
+      "lastname": "sdfgh",
+      "sdt": "xvcxv",
+      "gmail": "zxvzxvz",
+      "subscribeToNewsletter": false,
+      "id": 6
+    }
+  ],
+  "datphong": [
+    {
+      "phong_id": 1,
+      "kh_id": 1,
+      "checkin": "2021-09-20",
+      "checkout": "2021-09-23",
+      "tenphong": "A001",
+      "tinhtrang": "Đã thanh toán",
+      "songuoi": 6
+    },
+    {
+      "phong_id": 2,
+      "kh_id": 2,
+      "checkin": "2021-10-05",
+      "checkout": "2021-10-10",
+      "tenphong": "B002",
+      "tinhtrang": "Chưa thanh toán",
+      "songuoi": 2
+    },
+    {
+      "phong_id": 3,
+      "kh_id": 3,
+      "checkin": "2021-11-15",
+      "checkout": "2021-11-18",
+      "tenphong": "C003",
+      "tinhtrang": "Đã thanh toán",
+      "songuoi": 4
+    },
+    {
+      "phong_id": 4,
+      "kh_id": 4,
+      "checkin": "2021-12-01",
+      "checkout": "2021-12-05",
+      "tenphong": "D004",
+      "tinhtrang": "Chưa thanh toán",
+      "songuoi": 3
+    }
+  ],
+  "hoadon": [
+    {
+      "ma_hoadon": 1,
+      "tenphong": "A001",
+      "checkin": "2021-09-20",
+      "checkout": "2021-09-23",
+      "tongtien": 2000000
+    },
+    {
+      "ma_hoadon": 2,
+      "tenphong": "B002",
+      "checkin": "2021-10-05",
+      "checkout": "2021-10-10",
+      "tongtien": 1500000
+    },
+    {
+      "ma_hoadon": 3,
+      "tenphong": "C003",
+      "checkin": "2021-11-15",
+      "checkout": "2021-11-18",
+      "tongtien": 1800000
+    },
+    {
+      "ma_hoadon": 4,
+      "tenphong": "D004",
+      "checkin": "2021-12-01",
+      "checkout": "2021-12-05",
+      "tongtien": 1200000
+    }
+  ],
+  "phong": [
+    {
+      "id_phong": 1,
+      "tenphong": "Suite Room",
+      "tenloaiphong": "VIP",
+      "tinhtrang": "còn trống",
+      "max": 3,
+      "size": "45 m2",
+      "bed": "1",
+      "view": "sea view",
+      "mota": "Là phòng có diện tích lớn, được trang bị nội thất sang trọng và tiện nghi hiện đại.",
+      "giatien": 120,
+      "anh": "/anh/room-1.jpg"
+    },
+    {
+      "id_phong": 2,
+      "tenphong": "Family Room",
+      "tenloaiphong": "Standard",
+      "tinhtrang": "đã đặt",
+      "max": 2,
+      "size": "30 m2",
+      "bed": "1",
+      "mota": "Phòng tiêu chuẩn với không gian thoải mái và đầy đủ tiện nghi.",
+      "view": "City View",
+      "giatien": 250,
+      "anh": "/anh/room-2.jpg"
+    },
+    {
+      "id_phong": 3,
+      "tenphong": "Deluxe Room  ",
+      "tenloaiphong": "Deluxe",
+      "tinhtrang": "còn trống",
+      "max": 3,
+      "size": "40 m2",
+      "bed": 1,
+      "mota": "Phòng sang trọng, đẳng cấp với view đẹp.",
+      "view": "Ocean View",
+      "giatien": 35,
+      "anh": "/anh/room-3.jpg"
+    },
+    {
+      "id_phong": 4,
+      "tenphong": "Classic Room",
+      "tenloaiphong": "Suite",
+      "tinhtrang": "đã đặt",
+      "max": 4,
+      "size": "55 m2",
+      "bed": 2,
+      "mota": "Phòng Suite rộng lớn, phù hợp cho gia đình hoặc nhóm lớn.",
+      "view": "Mountain View",
+      "giatien": 50,
+      "anh": "/anh/room-4.jpg"
+    },
+    {
+      "id_phong": 5,
+      "tenphong": "Superior Room",
+      "tenloaiphong": "Executive",
+      "tinhtrang": "còn trống",
+      "max": 2,
+      "size": "45 m2",
+      "bed": 1,
+      "mota": "Phòng Executive thoải mái và hiện đại với không gian rộng lớn.",
+      "view": "City View",
+      "giatien": 30,
+      "anh": "/anh/room-5.jpg"
+    },
+    {
+      "id_phong": 6,
+      "tenphong": "Luxury Room",
+      "tenloaiphong": "Executive",
+      "tinhtrang": "còn trống",
+      "max": 2,
+      "size": "80 m2",
+      "bed": 2,
+      "mota": "Phòng Executive thoải mái và hiện đại với không gian rộng lớn.",
+      "view": "City View",
+      "giatien": 60,
+      "anh": "/anh/room-6.jpg"
+    },
+    {
+      "id_phong": 7,
+      "tenphong": "Luxury Room",
+      "tenloaiphong": "Executive",
+      "tinhtrang": "còn trống",
+      "max": 2,
+      "size": "80 m2",
+      "bed": 2,
+      "mota": "Phòng Executive thoải mái và hiện đại với không gian rộng lớn.",
+      "view": "City View",
+      "giatien": 60,
+      "anh": "/anh/room-6.jpg"
+    },
+    {
+      "id_phong": 8,
+      "tenphong": "Luxury Room",
+      "tenloaiphong": "Executive",
+      "tinhtrang": "còn trống",
+      "max": 2,
+      "size": "80 m2",
+      "bed": 2,
+      "mota": "Phòng Executive thoải mái và hiện đại với không gian rộng lớn.",
+      "view": "City View",
+      "giatien": 60,
+      "anh": "/anh/room-6.jpg"
+    }
+  ],
+  "ourmenu": [
+    {
+      "name": "Grilled Beef with Potatoes",
+      "mota": "A small river named Duden flows by their place and supplies",
+      "gia": "$49.00",
+      "imgUrl": "/anh/mon1.png"
+    },
+    {
+      "name": "Seafood Platter",
+      "mota": "Fresh seafood delicacies served with a special sauce",
+      "gia": "$30.00",
+      "imgUrl": "/anh/mon2.png"
+    },
+    {
+      "name": "Vegetarian Delight",
+      "mota": "A variety of vegetables prepared with exotic spices",
+      "gia": "$25.00",
+      "imgUrl": "/anh/mon3.png"
+    },
+    {
+      "name": "Sushi Combo",
+      "mota": "Assorted sushi rolls with wasabi and soy sauce",
+      "gia": "$35.00",
+      "imgUrl": "/anh/mon4.png"
+    },
+    {
+      "name": "Chicken Alfredo Pasta",
+      "mota": "Creamy Alfredo sauce with grilled chicken and pasta",
+      "gia": "$28.00",
+      "imgUrl": "/anh/mon5.png"
+    },
+    {
+      "name": "Cheesecake Delight",
+      "mota": "Rich and creamy cheesecake with a berry compote",
+      "gia": "$15.00",
+      "imgUrl": "/anh/mon6.png"
+    }
+  ],
+  "danhgia": [
+    {
+      "id": 1,
+      "name": "robinson",
+      "tils": "là một khách sạn toẹt zời đây đủ tiện nghi và tôi có những ngày vui vẻ"
+    },
+    {
+      "id": 2,
+      "name": "ngochien",
+      "tils": "Khách sạn này thực sự ấn tượng với dịch vụ chuyên nghiệp và phòng ốc sạch sẽ, thoải mái."
+    },
+    {
+      "id": 3,
+      "name": "thanhhuong",
+      "tils": "Một trải nghiệm lưu trú tuyệt vời! Phòng đẹp, nhân viên thân thiện và thức ăn ngon."
+    },
+    {
+      "id": 4,
+      "name": "tunglam",
+      "tils": "Khách sạn này đáng giá tiền với không gian sang trọng và dịch vụ tốt."
+    },
+    {
+      "id": 5,
+      "name": "trangnguyen",
+      "tils": "Tôi đã có một kỳ nghỉ tuyệt vời tại đây, khám phá được nhiều điểm du lịch lân cận."
+    },
+    {
+      "id": 6,
+      "name": "hoangminh",
+      "tils": "Dịch vụ khách sạn rất chuyên nghiệp, nhân viên thân thiện và phòng ốc thoải mái."
+    }
+  ],
+  "blog": [
+    {
+      "id": 1,
+      "images": "/anh/bg_1.jpg",
+      "title": "Even the all-powerful Pointing has no control about the blind texts",
+      "content": "Ngay cả Pointing toàn năng cũng không kiểm soát được các văn bản mù",
+      "date": "2021-11-18"
+    },
+    {
+      "id": 2,
+      "images": "/anh/bg_2.jpg",
+      "title": "Blog Title Two",
+      "content": "Bí quyết tăng cường sự sáng tạo trong công việc hàng ngày của bạn",
+      "date": "2021-12-02"
+    },
+    {
+      "id": 3,
+      "images": "/anh/bg_3.jpg",
+      "title": "Blog Title Three",
+      "content": "Những công nghệ mới nhất giúp bạn nâng cao hiệu suất làm việc",
+      "date": "2022-01-15"
+    },
+    {
+      "id": 4,
+      "images": "/anh/bg_4.jpg",
+      "title": "Blog Title Four",
+      "content": "Cách du lịch có thể tăng cường trí óc và sức khỏe tinh thần của bạn",
+      "date": "2022-03-09"
+    },
+    {
+      "id": 5,
+      "images": "/anh/bg_2.jpg",
+      "title": "Blog Title Five",
+      "content": "Làm thế nào để xây dựng một lịch trình làm việc hiệu quả",
+      "date": "2022-05-21"
+    },
+    {
+      "id": 6,
+      "images": "/anh/bg_4.jpg",
+      "title": "Blog Title Six",
+      "content": "Bí mật của những người thành công: Quản lý thời gian thông minh",
+      "date": "2022-07-12"
+    },
+    {
+      "id": 7,
+      "images": "/anh/bg_3.jpg",
+      "title": "Blog Title Seven",
+      "content": "Cách duy trì một lối sống lành mạnh và cân đối",
+      "date": "2022-09-28"
+    },
+    {
+      "id": 8,
+      "images": "/anh/bg_1.jpg",
+      "title": "Blog Title Eight",
+      "content": "10 sách mà mọi người nên đọc để thay đổi cuộc sống",
+      "date": "2022-11-05"
+    },
+    {
+      "id": 9,
+      "images": "/anh/bg_2.jpg",
+      "title": "Blog Title Nine",
+      "content": "Tạo động lực bản thân: 5 cách để bạn tự thúc đẩy mình",
+      "date": "2023-01-19"
+    },
+    {
+      "id": 10,
+      "images": "/anh/bg_3.jpg",
+      "title": "Blog Title Ten",
+      "content": "Cách giảm căng thẳng và áp lực trong cuộc sống hàng ngày",
+      "date": "2023-03-07"
+    },
+    {
+      "id": 11,
+      "images": "/anh/bg_4.jpg",
+      "title": "Blog Title Eleven",
+      "content": "Làm thế nào để phát triển kỹ năng giao tiếp hiệu quả",
+      "date": "2023-05-15"
+    },
+    {
+      "id": 12,
+      "images": "/anh/bg_1.jpg",
+      "title": "Blog Title Twelve",
+      "content": "Sự quan trọng của giấc ngủ đối với sức khỏe và tinh thần",
+      "date": "2023-07-22"
+    },
+    {
+      "id": 13,
+      "images": "/anh/bg_2.jpg",
+      "title": "Blog Title Thirteen",
+      "content": "Cách xây dựng mối quan hệ tích cực trong cuộc sống cá nhân và nghề nghiệp",
+      "date": "2023-09-11"
+    },
+    {
+      "id": 14,
+      "images": "/anh/bg_3.jpg",
+      "title": "Blog Title Fourteen",
+      "content": "Bí mật của sự tự tin: Làm thế nào để cảm thấy tự tin hơn mỗi ngày",
+      "date": "2023-11-03"
+    },
+    {
+      "id": 15,
+      "images": "/anh/bg_4.jpg",
+      "title": "Blog Title Fifteen",
+      "content": "Cách thúc đẩy sự sáng tạo trong công việc và cuộc sống cá nhân",
+      "date": "2023-12-29"
+    },
+    {
+      "id": 16,
+      "images": "/anh/bg_1.jpg",
+      "title": "Blog Title Sixteen",
+      "content": "Làm thế nào để phát triển tư duy tích cực",
+      "date": "2024-02-14"
+    },
+    {
+      "id": 17,
+      "images": "/anh/bg_2.jpg",
+      "title": "Blog Title Seventeen",
+      "content": "Sự quan trọng của việc duy trì lối sống cân đối và chế độ dinh dưỡng",
+      "date": "2024-04-03"
+    },
+    {
+      "id": 18,
+      "images": "/anh/bg_3.jpg",
+      "title": "Blog Title Eighteen",
+      "content": "Cách xây dựng một môi trường làm việc tích cực",
+      "date": "2024-06-20"
+    },
+    {
+      "id": 19,
+      "images": "/anh/bg_4.jpg",
+      "title": "Blog Title Nineteen",
+      "content": "Làm thế nào để duy trì mối quan hệ gia đình khỏe mạnh",
+      "date": "2024-08-12"
+    },
+    {
+      "id": 20,
+      "images": "/anh/bg_1.jpg",
+      "title": "Blog Title Twenty",
+      "content": "Cách thiết lập mục tiêu và đạt được chúng trong cuộc sống",
+      "date": "2024-10-05"
+    },
+    {
+      "id": 21,
+      "images": "/anh/bg_2.jpg",
+      "title": "Blog Title Twenty-One",
+      "content": "Bí mật của sự kiên nhẫn: Làm thế nào để không bao giờ từ bỏ",
+      "date": "2024-12-01"
+    },
+    {
+      "id": 22,
+      "images": "/anh/bg_3.jpg",
+      "title": "Blog Title Twenty-Two",
+      "content": "Cách phát triển kỹ năng quản lý thời gian trong công việc",
+      "date": "2025-01-24"
+    },
+    {
+      "id": 23,
+      "images": "/anh/bg_4.jpg",
+      "title": "Blog Title Twenty-Three",
+      "content": "Làm thế nào để giữ cho tâm trạng tích cực trong môi trường làm việc",
+      "date": "2025-03-18"
+    },
+    {
+      "id": 24,
+      "images": "/anh/bg_1.jpg",
+      "title": "Blog Title Twenty-Four",
+      "content": "Cách xây dựng một cuộc sống đầy ý nghĩa và hạnh phúc",
+      "date": "2025-05-09"
+    },
+    {
+      "id": 25,
+      "images": "/anh/bg_2.jpg",
+      "title": "Blog Title Twenty-Five",
+      "content": "Sự quan trọng của việc duy trì sức khỏe tinh thần",
+      "date": "2025-07-01"
+    },
+    {
+      "id": 26,
+      "images": "/anh/bg_3.jpg",
+      "title": "Blog Title Twenty-Six",
+      "content": "Làm thế nào để phát triển lòng tự trọng và tự tin",
+      "date": "2025-08-22"
+    },
+    {
+      "id": 27,
+      "images": "/anh/bg_4.jpg",
+      "title": "Blog Title Twenty-Seven",
+      "content": "Cách quản lý áp lực công việc và duy trì sự cân bằng",
+      "date": "2025-10-15"
+    },
+    {
+      "id": 28,
+      "images": "/anh/bg_1.jpg",
+      "title": "Blog Title Twenty-Eight",
+      "content": "Làm thế nào để phát triển kỹ năng quyết định hiệu quả",
+      "date": "2025-12-08"
+    },
+    {
+      "id": 29,
+      "images": "/anh/bg_2.jpg",
+      "title": "Blog Title Twenty-Nine",
+      "content": "Cách xây dựng một môi trường sống thân thiện với môi trường",
+      "date": "2026-02-02"
+    },
+    {
+      "id": 30,
+      "images": "/anh/bg_3.jpg",
+      "title": "Blog Title Thirty",
+      "content": "Làm thế nào để giữ cho tâm hồn của bạn trẻ trung mãi mãi",
+      "date": "2026-03-26"
+    }
+  ]
+}
